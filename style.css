@@ -24,21 +24,21 @@ body{
 }
 
 .blue {
-    background-color: rgb(23, 55, 196);
+    background-color: rgb(10, 34, 141);
     grid-area: blue-area;
     border-bottom-right-radius: 100%;
     cursor: pointer;
 }
 
 .red {
-    background-color: rgb(202, 3, 3);
+    background-color: rgb(185, 6, 6);
     grid-area: red-area;
     border-top-right-radius: 100%;
     cursor: pointer;
 }
 
 .yellow {
-    background-color: rgb(252, 207, 6);
+    background-color: rgb(213, 176, 12);
     grid-area: yellow-area;
     border-bottom-left-radius: 100%;
     cursor: pointer;
@@ -52,5 +52,5 @@ body{
 }
 
 .selected {
-    filter: brightness(2);
+    filter: brightness(2.2);
 }

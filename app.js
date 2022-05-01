@@ -22,7 +22,7 @@ const highlightColor = (element, time) => {
   time = time * 500;
   setTimeout(() => {
     element.classList.add('selected');
-  }, time - 250);
+  }, time - 150);
 
   setTimeout(() => {
     element.classList.remove('selected');
@@ -50,7 +50,7 @@ const click = (color) => {
   setTimeout(() => {
     createColorElement(color).classList.remove('selected');
     checkOrder();
-  },250);
+  }, 250);
 }
 
 const createColorElement = (color) => {
@@ -87,7 +87,7 @@ const startGame = () => {
 green.onclick = () => click(0);
 red.onclick = () => click(1);
 yellow.onclick = () => click(2);
-blue.onclick = () => click();
+blue.onclick = () => click(3);
 
 
 startGame();
